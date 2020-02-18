@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJsb2dnZXI0MyIsImlkIjoiNWU0YzBhOTQxNzU3ZjQ1YThjYjE3NDMxIiwiaWF0IjoxNTgyMDUwNTA0fQ.lWJA2Hx8-_8r2KfWZqDaLZ4z7h3FNgmKpU3mtp8FXKs
+
+{
+    "title": "Uusi blogi",
+    "author": "Blogaaja",
+    "url": "www.blog.fi",
+    "likes": 7
+}
